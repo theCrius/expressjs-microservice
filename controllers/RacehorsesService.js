@@ -1,5 +1,4 @@
 'use strict';
-const request = require('request-promise-native');
 const knex = require('../knex/knex.js'); //To use knex, RTFM: http://knexjs.org/#Builder
 
 module.exports = {
