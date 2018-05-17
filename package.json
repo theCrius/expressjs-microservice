@@ -1,11 +1,9 @@
 {
   "name": "expressjs-microservice",
-  "version": "0.0.12",
-  "author": "Mr. Doomsbuster",
-  "main": "app.js",
+  "version": "1.0.0",
+  "main": "index.js",
   "description": "An opinionated minimalist boilerplate for expressjs based microservices.",
-  "license": "WTFPL",
-  "homepage": "https://ashishdesai.com",
+  "license": "MIT",
   "keywords": [
     "expressjs",
     "microservices",
@@ -18,14 +16,14 @@
     "express microservice"
   ],
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "nodemon index.js",
     "test": "istanbul cover -x **/spec/** --print detail ./node_modules/.bin/jasmine JASMINE_CONFIG_PATH=./spec/support/jasmine.json",
     "debugtest": "istanbul cover -x **/spec/** --print detail ./node_modules/.bin/jasmine-node-debug JASMINE_CONFIG_PATH=./spec/support/jasmine.json",
     "integtest": "./node_modules/.bin/jasmine JASMINE_CONFIG_PATH=./spec/support/jasmine-integ.json"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/doomsbuster/expressjs-microservice.git"
+    "url": "git+https://thecrius@bitbucket.org/thecrius/ms-boilerplate.git"
   },
   "dependencies": {
     "body-parser": "~1.10.1",
